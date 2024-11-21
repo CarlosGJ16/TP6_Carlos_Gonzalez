@@ -1,0 +1,72 @@
+/* Estilo general para los botones */
+.submit-btn, .clear-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.clear-btn {
+    background-color: #f44336;
+}
+
+/* Agrupación de los campos del formulario */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Estilo para el área de texto */
+textarea {
+    height: 100px;
+}
+
+/* Estilo para los botones dentro del formulario */
+.form-actions {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.animated-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.animated-button:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo para el contenedor */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Estilo para el título */
+h1 {
+    color: #4CAF50;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3: Enviar Mensaje</title>
+    <link rel="stylesheet" href="pagina2.css">
+    <link rel="stylesheet" href="pagina4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Página 3: Enviar Mensaje</h1>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="nombreContacto">Nombre:</label>
+                <input type="text" id="nombreContacto" name="nombreContacto" required>
+            </div>
+            <div class="form-group">
+                <label for="apellidoContacto">Apellido:</label>
+                <input type="text" id="apellidoContacto" name="apellidoContacto" required>
+            </div>
+            <div class="form-group">
+                <label for="celularContacto">Celular:</label>
+                <input type="tel" id="celularContacto" name="celularContacto" required>
+            </div>
+            <div class="form-group">
+                <label for="emailContacto">Email:</label>
+                <input type="email" id="emailContacto" name="emailContacto" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                <button type="button" id="limpiarFormContact" class="clear-btn">Limpiar</button>
+            </div>
+        </form>
+
+        <div class="buttons">
+            <button id="goToindex" class="animated-button">Ir la pagina de login</button>
+            <button id="goToPagina2" class="animated-button">Ir a la pagina principal</button>
+            <button id="goToPagina3" class="animated-button">Ir a formulario completo</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="javascript.js/pagina4.js"></script>
+</body>
+</html>
